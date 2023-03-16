@@ -1,0 +1,77 @@
+.game-container {
+	margin: 4%;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.game-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.game-rating {
+	align-self: center;
+	font-size: 1em;
+}
+
+.game-description {
+	margin-top: -14px;
+}
+
+.game-footer {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.game-button {
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding: 10px 25px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	background: #262626;
+	color: white;
+	font-weight: bold;
+}
+
+.game-button:hover {
+	background: #898989;
+}
+
+.comments-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	margin: 4%;
+	margin-top: -25px;
+}
+
+.comments-title {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.game-container {
+		margin: 4% 6%;
+	}
+	.comments-container {
+		margin: 4% 6%;
+		margin-top: -25px;
+	}
+}
+
+@media (min-width: 800px) {
+	.game-container {
+		margin: 4% 12%;
+	}
+	.comments-container {
+		margin: 4% 12%;
+		margin-top: -25px;
+	}
+}

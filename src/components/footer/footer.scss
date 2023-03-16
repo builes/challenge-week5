@@ -1,0 +1,32 @@
+.footer {
+	background: #262626;
+	color: white;
+	height: 7vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.footer-span {
+	align-self: center;
+	cursor: pointer;
+}
+
+.footer-span:hover {
+	background-color: #474646;
+}
+
+@media (max-width: 500px) {
+	.footer {
+		justify-content: flex-start;
+		height: 14vh;
+	}
+
+	.footer-span {
+		width: 43%;
+		align-self: center;
+		cursor: pointer;
+		margin: 12px 10px 2px 5px;
+	}
+}
